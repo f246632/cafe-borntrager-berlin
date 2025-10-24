@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Café Bornträger - Gemütliches familiengeführtes Café in Berlin Prenzlauer Berg. Hausgemachte Spezialitäten, exzellenter Kaffee und berühmtes Softeis.">
+    <meta name="keywords" content="Café Berlin, Prenzlauer Berg, Kaffee, Kuchen, Softeis, gemütlich, familiengeführt">
+    <meta name="author" content="Café Bornträger">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Café Bornträger - Gemütliches Café in Berlin">
+    <meta property="og:description" content="Hausgemachte Spezialitäten, exzellenter Kaffee und herzlicher Service im Herzen von Prenzlauer Berg">
+    <meta property="og:image" content="./images/downloaded/hero-1.jpg">
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Cafe",
+      "name": "Café Bornträger",
+      "image": "./images/downloaded/hero-1.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Stahlheimer Str. 3A",
+        "addressLocality": "Berlin",
+        "postalCode": "10439",
+        "addressCountry": "DE"
+      },
+      "telephone": "+49 30 44714930",
+      "priceRange": "€",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "13:00",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Saturday", "Sunday"],
+          "opens": "11:00",
+          "closes": "18:00"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "bestRating": "5",
+        "ratingCount": "50"
+      }
+    }
+    </script>
+
+    <title>Café Bornträger - Gemütliches Café in Berlin Prenzlauer Berg</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>Café Bornträger</h1>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Start</a></li>
+                <li><a href="#about" class="nav-link">Über Uns</a></li>
+                <li><a href="#menu" class="nav-link">Angebot</a></li>
+                <li><a href="#gallery" class="nav-link">Galerie</a></li>
+                <li><a href="#location" class="nav-link">Standort</a></li>
+                <li><a href="#contact" class="nav-link">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2 class="hero-title">Willkommen im Café Bornträger</h2>
+            <p class="hero-subtitle">Ihr familiengeführtes Café im Herzen von Prenzlauer Berg</p>
+            <p class="hero-description">Hausgemachte Spezialitäten, exzellenter Kaffee und herzlicher Service seit Jahren</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">Unser Angebot</a>
+                <a href="#location" class="btn btn-secondary">Besuchen Sie uns</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Über Uns</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Eine Berliner Tradition</h3>
+                    <p class="lead">Willkommen in unserem gemütlichen, familiengeführten Café im schönen Prenzlauer Berg. Hier verschmelzen traditionelle Kaffeehauskultur und moderne Berliner Gemütlichkeit zu einem einzigartigen Erlebnis.</p>
+                    <p>Unser Café ist mehr als nur ein Ort für guten Kaffee – es ist ein zweites Wohnzimmer für die Nachbarschaft. Mit viel Liebe zum Detail und echter Berliner Herzlichkeit kreieren wir täglich hausgemachte Spezialitäten, die unsere Gäste immer wieder zurückkehren lassen.</p>
+
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <div class="feature-icon">☕</div>
+                            <h4>Exzellenter Kaffee</h4>
+                            <p>Perfekt gebrühter Kaffee aus hochwertigen Bohnen</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🍰</div>
+                            <h4>Hausgemachte Spezialitäten</h4>
+                            <p>Täglich frische Kuchen, Waffeln und unser berühmtes Softeis</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🍵</div>
+                            <h4>Große Teeauswahl</h4>
+                            <p>Vielfältige Premium-Teesorten für jeden Geschmack</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">💻</div>
+                            <h4>Laptop-freundlich</h4>
+                            <p>Perfekt zum Arbeiten oder Studieren in gemütlicher Atmosphäre</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Unser Angebot</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Hausgemachte Spezialitäten und erlesene Getränke</p>
+            </div>
+
+            <div class="menu-category">
+                <h3 class="category-title">Kaffee & Getränke</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4>Milchkaffee</h4>
+                            <span class="price">€3.50</span>
+                        </div>
+                        <p class="menu-item-description">Perfekt hausgemachter Kaffee</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4>Latte Macchiato</h4>
+                            <span class="price">€4.00</span>
+                        </div>
+                        <p class="menu-item-description">Cremiger Klassiker mit perfekter Schichtung</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4>Große Auswahl an Teesorten</h4>
+                            <span class="price">ab €3.00</span>
+                        </div>
+                        <p class="menu-item-description">Verschiedene Premium-Teesorten für jeden Geschmack</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category">
+                <h3 class="category-title">Hausgemachte Spezialitäten</h3>
+                <div class="menu-items">
+                    <div class="menu-item featured">
+                        <div class="featured-badge">Spezialität</div>
+                        <div class="menu-item-header">
+                            <h4>Himbeer-Sahne-Rolle</h4>
+                            <span class="price">€4.50</span>
+                        </div>
+                        <p class="menu-item-description">Unsere hausgemachte Spezialität – ein Gedicht aus frischen Himbeeren und luftiger Sahne</p>
+                    </div>
+                    <div class="menu-item featured">
+                        <div class="featured-badge">Beliebt</div>
+                        <div class="menu-item-header">
+                            <h4>Hauswaffeln</h4>
+                            <span class="price">€5.50</span>
+                        </div>
+                        <p class="menu-item-description">Frisch zubereitete Waffeln mit verschiedenen Toppings nach Wahl</p>
+                    </div>
+                    <div class="menu-item featured">
+                        <div class="featured-badge">★ Berühmt</div>
+                        <div class="menu-item-header">
+                            <h4>Berühmtes Softeis</h4>
+                            <span class="price">€3.00</span>
+                        </div>
+                        <p class="menu-item-description">Die Spezialität des Hauses – cremig, erfrischend und einfach unwiderstehlich</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-info">
+                <p><strong>Preisspanne:</strong> €1-10 pro Person</p>
+                <p class="menu-note">Alle Preise verstehen sich inklusive MwSt. Änderungen vorbehalten.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Impressionen</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Ein Blick in unser gemütliches Café</p>
+            </div>
+            <div class="gallery-grid" id="galleryGrid">
+                <div class="gallery-item" data-index="0">
+                    <img src="./images/downloaded/hero-1.jpg" alt="Café Bornträger Außenansicht" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="1">
+                    <img src="./images/downloaded/gallery-1.jpg" alt="Gemütliche Inneneinrichtung" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="2">
+                    <img src="./images/downloaded/gallery-2.jpg" alt="Café Atmosphere" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="3">
+                    <img src="./images/downloaded/gallery-3.jpg" alt="Unsere Spezialitäten" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="4">
+                    <img src="./images/downloaded/gallery-4.jpg" alt="Kaffeekultur" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="5">
+                    <img src="./images/downloaded/gallery-5.jpg" alt="Gemütliche Ecken" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="6">
+                    <img src="./images/downloaded/gallery-6.jpg" alt="Details" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="7">
+                    <img src="./images/downloaded/gallery-7.jpg" alt="Café Atmosphäre" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="8">
+                    <img src="./images/downloaded/gallery-8.jpg" alt="Genuss pur" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-icon">🔍</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Was unsere Gäste sagen</h2>
+                <div class="title-underline"></div>
+                <div class="rating-summary">
+                    <div class="rating-stars">★★★★★</div>
+                    <p class="rating-text">4.9/5 basierend auf 50+ Bewertungen</p>
+                </div>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Feel-good atmosphere and super nice staff. Perfect place to relax and enjoy excellent coffee."</p>
+                    <div class="review-author">
+                        <strong>Local Visitor</strong>
+                        <span class="review-date">2024</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Perfect homemade coffee in a family-run caffe. The raspberry cream roll and waffles are outstanding!"</p>
+                    <div class="review-author">
+                        <strong>Coffee Enthusiast</strong>
+                        <span class="review-date">2024</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Best soft ice cream in the neighborhood! Great variety of teas and the atmosphere is so cozy and welcoming."</p>
+                    <div class="review-author">
+                        <strong>Berlin Regular</strong>
+                        <span class="review-date">2024</span>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews-cta">
+                <a href="https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Borntr%C3%A4ger&query_place_id=ChIJMzslhPhNqEcRcW6Z164yGRc" target="_blank" rel="noopener" class="btn btn-primary">Alle Bewertungen auf Google ansehen</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location" id="location">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Besuchen Sie uns</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="location-content">
+                <div class="location-info">
+                    <div class="info-block">
+                        <h3>📍 Adresse</h3>
+                        <p>Stahlheimer Str. 3A<br>10439 Berlin<br>Deutschland</p>
+                    </div>
+                    <div class="info-block">
+                        <h3>📞 Telefon</h3>
+                        <p><a href="tel:+493044714930">+49 30 44714930</a></p>
+                    </div>
+                    <div class="info-block">
+                        <h3>🕐 Öffnungszeiten</h3>
+                        <table class="hours-table">
+                            <tr>
+                                <td>Montag</td>
+                                <td><strong>Geschlossen</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Dienstag - Freitag</td>
+                                <td>13:00 - 17:00</td>
+                            </tr>
+                            <tr>
+                                <td>Samstag - Sonntag</td>
+                                <td>11:00 - 18:00</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="info-block">
+                        <h3>🚇 Anfahrt</h3>
+                        <p>Gut erreichbar mit öffentlichen Verkehrsmitteln.<br>
+                        In der Nähe von S- und U-Bahn Stationen in Prenzlauer Berg.</p>
+                    </div>
+                </div>
+                <div class="location-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2426.871234567890!2d13.4231234567890!3d52.5456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e4cf825272b%3A0x171913ae5d996e71!2sCaf%C3%A9%20Borntr%C3%A4ger!5e0!3m2!1sde!2sde!4v1234567890123!5m2!1sde!2sde"
+                        width="100%"
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Café Bornträger Standort auf Google Maps">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Kontakt</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Wir freuen uns auf Ihre Nachricht</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Nehmen Sie Kontakt auf</h3>
+                    <p>Haben Sie Fragen, möchten Sie einen Tisch reservieren oder einfach Hallo sagen? Wir sind für Sie da!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <div>
+                                <strong>Telefon</strong>
+                                <a href="tel:+493044714930">+49 30 44714930</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <strong>Adresse</strong>
+                                <p>Stahlheimer Str. 3A<br>10439 Berlin</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">🕐</span>
+                            <div>
+                                <strong>Öffnungszeiten</strong>
+                                <p>Di-Fr: 13:00-17:00<br>Sa-So: 11:00-18:00<br>Mo: Geschlossen</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-Mail *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefon</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Nachricht *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Nachricht senden</button>
+                        <div class="form-message" id="formMessage"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Café Bornträger</h3>
+                    <p>Ihr familiengeführtes Café<br>im Herzen von Prenzlauer Berg</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontakt</h4>
+                    <p>Stahlheimer Str. 3A<br>10439 Berlin<br>
+                    Tel: <a href="tel:+493044714930">+49 30 44714930</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Öffnungszeiten</h4>
+                    <p>Di-Fr: 13:00-17:00<br>Sa-So: 11:00-18:00<br>Montag: Geschlossen</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Folgen Sie uns</h4>
+                    <div class="social-links">
+                        <a href="https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Borntr%C3%A4ger&query_place_id=ChIJMzslhPhNqEcRcW6Z164yGRc" target="_blank" rel="noopener" aria-label="Google Maps">📍 Maps</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Café Bornträger. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Gallery Modal -->
+    <div class="gallery-modal" id="galleryModal">
+        <button class="modal-close" id="modalClose" aria-label="Close gallery">&times;</button>
+        <button class="modal-prev" id="modalPrev" aria-label="Previous image">❮</button>
+        <button class="modal-next" id="modalNext" aria-label="Next image">❯</button>
+        <div class="modal-content">
+            <img src="" alt="Gallery image" id="modalImage">
+            <div class="modal-counter" id="modalCounter"></div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/gallery.js"></script>
+</body>
+</html>

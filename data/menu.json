@@ -1,0 +1,75 @@
+{
+  "categories": [
+    {
+      "name": "Kaffee & Getränke",
+      "name_en": "Coffee & Drinks",
+      "items": [
+        {
+          "name": "Milchkaffee",
+          "name_en": "Milk Coffee",
+          "description": "Perfekt hausgemachter Kaffee",
+          "description_en": "Perfect homemade coffee",
+          "price": "€3.50"
+        },
+        {
+          "name": "Latte Macchiato",
+          "name_en": "Latte Macchiato",
+          "description": "Cremiger Klassiker",
+          "description_en": "Creamy classic",
+          "price": "€4.00"
+        },
+        {
+          "name": "Große Auswahl an Teesorten",
+          "name_en": "Large Selection of Teas",
+          "description": "Verschiedene Premium-Teesorten",
+          "description_en": "Various premium tea varieties",
+          "price": "€3.00"
+        }
+      ]
+    },
+    {
+      "name": "Hausgemachte Spezialitäten",
+      "name_en": "Homemade Specialties",
+      "items": [
+        {
+          "name": "Himbeer-Sahne-Rolle",
+          "name_en": "Raspberry Cream Roll",
+          "description": "Hausgemachte Spezialität",
+          "description_en": "Homemade specialty",
+          "price": "€4.50",
+          "featured": true
+        },
+        {
+          "name": "Hauswaffeln",
+          "name_en": "House Waffles",
+          "description": "Frisch zubereitet mit Toppings",
+          "description_en": "Freshly prepared with toppings",
+          "price": "€5.50",
+          "featured": true
+        },
+        {
+          "name": "Berühmtes Softeis",
+          "name_en": "Famous Soft Ice Cream",
+          "description": "Die Spezialität des Hauses",
+          "description_en": "The house specialty",
+          "price": "€3.00",
+          "featured": true
+        }
+      ]
+    }
+  ],
+  "features": [
+    "Große Auswahl an Teesorten",
+    "Guter Kaffee",
+    "Allein speisen",
+    "Geeignet zum Arbeiten am Laptop"
+  ],
+  "features_en": [
+    "Large selection of teas",
+    "Excellent coffee",
+    "Great for solo dining",
+    "Laptop-friendly workspace"
+  ],
+  "price_range": "€1-10 pro Person",
+  "price_range_en": "€1-10 per person"
+}

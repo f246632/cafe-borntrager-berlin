@@ -1,0 +1,32 @@
+{
+  "google_rating": "4.9/5",
+  "total_reviews": "50+",
+  "reviews": [
+    {
+      "author": "Local Visitor",
+      "rating": 5,
+      "text": "Feel-good atmosphere and super nice staff. Perfect place to relax and enjoy excellent coffee.",
+      "date": "2024"
+    },
+    {
+      "author": "Coffee Enthusiast",
+      "rating": 5,
+      "text": "Perfect homemade coffee in a family-run caffe. The raspberry cream roll and waffles are outstanding!",
+      "date": "2024"
+    },
+    {
+      "author": "Berlin Regular",
+      "rating": 5,
+      "text": "Best soft ice cream in the neighborhood! Great variety of teas and the atmosphere is so cozy and welcoming.",
+      "date": "2024"
+    }
+  ],
+  "highlights": [
+    "Feel-good atmosphere",
+    "Super nice staff",
+    "Family-run establishment",
+    "Homemade specialties",
+    "Great coffee selection",
+    "Famous soft ice cream"
+  ]
+}
